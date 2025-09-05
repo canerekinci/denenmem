@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "KIDFLIX AI",
+    "slug": "kidflix-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FF6B6B"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kidflix.ai"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FF6B6B"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.kidflix.ai"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow KIDFLIX AI to access your microphone for voice commands."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "kidflix-ai-project"
+      }
+    }
+  }
+}
